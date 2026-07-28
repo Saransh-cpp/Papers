@@ -7,7 +7,7 @@
 > [!TIP]
 > Looking at the website? Navigate to a specific_folder/paper to open the paper in the browser.
 
-```
+```bash
 .
 ├── autodiff
 ├── concurrent_computing
@@ -21,7 +21,8 @@
 │   │   ├── diffusion
 │   │   │   └── quantization
 │   │   ├── gaze_tracking
-│   │   │   ├── Algorithms
+│   │   │   ├── algorithm
+│   │   │   │   ├── VLM
 │   │   │   │   ├── calibration-free
 │   │   │   │   │   ├── emphasis_techniques
 │   │   │   │   │   ├── interactions
@@ -29,13 +30,12 @@
 │   │   │   │   │   ├── others
 │   │   │   │   │   ├── saliency
 │   │   │   │   │   └── smooth_pursuit
-│   │   │   │   ├── efficient
-│   │   │   │   └── VLMs
-│   │   │   ├── Datasets
-│   │   │   └── Reviews
+│   │   │   │   └── efficient
+│   │   │   ├── dataset
+│   │   │   └── review
 │   │   └── synergic_deep_learning
 │   ├── hep
-│   │   └── LHCtriggers
+│   │   └── LHCtrigger
 │   └── natural_language_processing
 │       └── LLM
 │           └── quantization
@@ -47,12 +47,11 @@
 ├── software_engineering
 │   └── runtime_verification
 ├── systems_for_ml
-│   ├── agents_for_inference_rl
-│   ├── fast_inference
 │   ├── LLM_inference
 │   ├── LLM_pre_training
-│   └── LLM_reinforcement_learning
+│   ├── LLM_reinforcement_learning
+│   ├── agents_for_inference_rl
+│   └── fast_inference
 └── theoretical_cs
     └── type_theory
 ```
-
